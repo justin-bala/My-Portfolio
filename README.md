@@ -26,21 +26,21 @@ with emphasis on transient behavior and system coupling.
 <table>
   <tr>
     <td align="center">
-      <img src="assets/RP.png" width="600"><br>
+      <img src="assets/RP.png" width="800"><br>
       <em>State Variables at Steady-State</em>
     </td>
     <td align="center">
-      <img src="assets/per_Tc.png" width="600"><br>
+      <img src="assets/per_Tc.png" width="800"><br>
       <em>Effect on State Variables with a 5% increase on Heating Jacket Temperature</em>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/per_deb_liq.png" width="600"><br>
+      <img src="assets/per_deb_liq.png" width="800"><br>
       <em>Effect on State Variables with a 10% increase on Liquid Feed Flowrate</em>
     </td>
     <td align="center">
-      <img src="assets/per_fv.png" width="600"><br>
+      <img src="assets/per_fv.png" width="800"><br>
       <em>Effect on State Variables with a 5% decrease on Vapor Outlet Flowrate</em>
     </td>
   </tr>
