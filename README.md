@@ -23,13 +23,34 @@ with emphasis on transient behavior and system coupling.
 - Time-dependent temperature and concentration profiles
 - Comparison between steady-state and dynamic behavior
 
-![Transient response of key variables](assets/per_Tc.png)
 
 
   
 <details>
-<summary><strong>Description</strong></summary>
-  
+<summary><strong>Results</strong></summary>
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/RP.png" width="350"><br>
+      <em>Caption for figure 1</em>
+    </td>
+    <td align="center">
+      <img src="assets/per_Tc.png" width="350"><br>
+      <em>Caption for figure 2</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/per_deb_liq.png" width="350"><br>
+      <em>Caption for figure 3</em>
+    </td>
+    <td align="center">
+      <img src="assets/per_fv.png" width="350"><br>
+      <em>Caption for figure 4</em>
+    </td>
+  </tr>
+</table>
+
 
 </details>
 
