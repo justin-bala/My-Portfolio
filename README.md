@@ -19,9 +19,9 @@ Literature-based understanding of the sugar extraction process and development o
 
 <details>
 <summary><strong>Sugar Plant Flowsheet</strong></summary>
-  
+<ul>
 ![Sugar Plant Flowsheet](assets/sugar_PFD.png)
-
+<ul>
 </details>
 
 #### Part II - Plant-Wide Mass Balance & Operator-Oriented Simulator
@@ -29,14 +29,16 @@ Development of a plant-wide mass balance and an operator-oriented Excel simulato
 The goal was to create a tool that reflects how process calculations would be used in practice.
 
 <details>
-<summary><strong>Simulator details</strong></summary>
-  
-- Feed-flow-based plant-wide mass balance  
-- Automated flowrate propagation across all units  
-- Parameter variation (air excess, inlet temperatures, etc.)  
-- Input constraints and safeguards to prevent calculation errors  
+<summary><strong>Discussion</strong></summary>
+
+<ul>
+  <li>Thermal variables respond faster than concentration and inventory</li>
+  <li>Linearized models are accurate only near the operating point</li>
+  <li>Dynamic analysis highlights limitations of steady-state assumptions</li>
+</ul>
 
 </details>
+
 
 #### Part III - Steady-State Modelling of an Evaporator Cascade
 Steady-state simulation of a five-effect evaporator cascade in series using Aspen HYSYS, including energy integration and sensitivity analysis.
@@ -83,10 +85,12 @@ Steady-state simulation of a five-effect evaporator cascade in series using Aspe
 <details>
 <summary><strong>Discussion</strong></summary>
   
-  - Thermal variables respond faster than concentration due to accumulation effects.
-  - Linearized and transfer-function models capture local behavior well but deviate under larger disturbances.
-  - Dynamic analysis highlights limitations of steady-state-only reasoning.
-
+<ul>
+  <li>Thermal variables respond faster than concentration due to accumulation effects.
+  <li>Linearized and transfer-function models capture local behavior well but deviate under larger disturbances.
+  <li>Dynamic analysis highlights limitations of steady-state-only reasoning.
+<ul>
+  
 </details>
 ---
 
