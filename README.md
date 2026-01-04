@@ -22,6 +22,10 @@ with emphasis on transient behavior and system coupling.
 **Key results**
 - Time-dependent temperature and concentration profiles
 - Comparison between steady-state and dynamic behavior
+
+![Transient response of key variables](assets/per_Tc.png)
+
+
   
 <details>
 <summary><strong>Description</strong></summary>
