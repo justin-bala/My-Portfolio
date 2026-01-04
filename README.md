@@ -16,7 +16,13 @@ The work progressed from flowsheet development and plant-wide mass balances to s
 
 #### Part I - Process Understanding and Process Flow Diagram (PFD)
 Literature-based understanding of the sugar extraction process and development of a PFD using Visio from the plant description provided by professors. 
+
+<details>
+<summary><strong>Sugar Plant Flowsheet</strong></summary>
+  
 ![Sugar Plant Flowsheet](assets/sugar_PFD.png)
+
+</details>
 
 #### Part II - Plant-Wide Mass Balance & Operator-Oriented Simulator
 Development of a plant-wide mass balance and an operator-oriented Excel simulator (VBA/macros) allowing users to define a feed basis and explore operating parameters while preserving calculation integrity.
@@ -24,7 +30,7 @@ The goal was to create a tool that reflects how process calculations would be us
 
 <details>
 <summary><strong>Simulator details</strong></summary>
-
+  
 - Feed-flow-based plant-wide mass balance  
 - Automated flowrate propagation across all units  
 - Parameter variation (air excess, inlet temperatures, etc.)  
@@ -40,11 +46,13 @@ Steady-state simulation of a five-effect evaporator cascade in series using Aspe
 #### Part IV — Dynamic Evaporator Model
 
 **My contribution**
+
 - Development and analysis of a dynamic evaporator model in Python
 - Implementation of steady-state and transient simulations
 - Interpretation of process behavior under operating disturbances
 
 **Representative results**
+
   - Time-dependent temperature, concentration, liquid level and pressure profiles
   - Comparison between steady-state and transient responses
   -  Comparison of different dynamic modeling approaches (nonlinear model, linearized model via Jacobian, and transfer-functions)
@@ -74,6 +82,7 @@ Steady-state simulation of a five-effect evaporator cascade in series using Aspe
 
 <details>
 <summary><strong>Discussion</strong></summary>
+  
   - Thermal variables respond faster than concentration due to accumulation effects.
   - Linearized and transfer-function models capture local behavior well but deviate under larger disturbances.
   - Dynamic analysis highlights limitations of steady-state-only reasoning.
@@ -82,6 +91,7 @@ Steady-state simulation of a five-effect evaporator cascade in series using Aspe
 ---
 
 ## Skills & Tools
+
 - Python (NumPy, SciPy, Matplotlib)
 - Numerical methods (ODEs, finite differences)
 - Process modeling & simulation
