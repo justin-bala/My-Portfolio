@@ -19,9 +19,11 @@ Literature-based understanding of the sugar extraction process and development o
 
 <details>
 <summary><strong>Sugar Plant Flowsheet</strong></summary>
-<ul>
+
+**Sugar Plant Flowsheet**
+
 ![Sugar Plant Flowsheet](assets/sugar_PFD.png)
-<ul>
+  
 </details>
 
 #### Part II - Plant-Wide Mass Balance & Operator-Oriented Simulator
@@ -30,12 +32,10 @@ The goal was to create a tool that reflects how process calculations would be us
 
 <details>
 <summary><strong>Discussion</strong></summary>
-
-<ul>
-  <li>Thermal variables respond faster than concentration and inventory</li>
-  <li>Linearized models are accurate only near the operating point</li>
-  <li>Dynamic analysis highlights limitations of steady-state assumptions</li>
-</ul>
+  
+- Thermal variables respond faster than concentration and inventory
+- Linearized models are accurate only near the operating point
+- Dynamic analysis highlights limitations of steady-state assumptions
 
 </details>
 
@@ -85,11 +85,9 @@ Steady-state simulation of a five-effect evaporator cascade in series using Aspe
 <details>
 <summary><strong>Discussion</strong></summary>
   
-<ul>
-  <li>Thermal variables respond faster than concentration due to accumulation effects.
-  <li>Linearized and transfer-function models capture local behavior well but deviate under larger disturbances.
-  <li>Dynamic analysis highlights limitations of steady-state-only reasoning.
-<ul>
+- Thermal variables respond faster than concentration due to accumulation effects.
+- Linearized and transfer-function models capture local behavior well but deviate under larger disturbances.
+- Dynamic analysis highlights limitations of steady-state-only reasoning.
   
 </details>
 ---
