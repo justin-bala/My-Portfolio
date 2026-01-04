@@ -16,7 +16,7 @@ The work progressed from flowsheet development and plant-wide mass balances to s
 
 #### Part I - Process Understanding and Process Flow Diagram (PFD)
 Literature-based understanding of the sugar extraction process and development of a PFD using Visio from the plant description provided by professors. 
-![Sugar Plant Flowsheet](assets/sugar_PFD.pdf)
+![Sugar Plant Flowsheet](assets/sugar_PFD.png)
 
 #### Part II - Plant-Wide Mass Balance & Operator-Oriented Simulator
 Development of a plant-wide mass balance and an operator-oriented Excel simulator (VBA/macros) allowing users to define a feed basis and explore operating parameters while preserving calculation integrity.
@@ -45,9 +45,9 @@ Steady-state simulation of a five-effect evaporator cascade in series using Aspe
 - Interpretation of process behavior under operating disturbances
 
 **Representative results**
-- Time-dependent temperature, concentration, liquid level and pressure profilees
-- Comparison between steady-state and transient responses
-- Comparison of different dynamic modeling approaches (nonlinear model, linearized model via Jacobian, and transfer-functions)
+  - Time-dependent temperature, concentration, liquid level and pressure profiles
+  - Comparison between steady-state and transient responses
+  -  Comparison of different dynamic modeling approaches (nonlinear model, linearized model via Jacobian, and transfer-functions)
 
 <table>
   <tr>
@@ -74,31 +74,11 @@ Steady-state simulation of a five-effect evaporator cascade in series using Aspe
 
 <details>
 <summary><strong>Discussion</strong></summary>
-- Thermal variables respond faster than concentration due to accumulation effects.
-- Linearized and transfer-function models capture local behavior well but deviate under larger disturbances.
-- Dynamic analysis highlights limitations of steady-state-only reasoning.
+  - Thermal variables respond faster than concentration due to accumulation effects.
+  - Linearized and transfer-function models capture local behavior well but deviate under larger disturbances.
+  - Dynamic analysis highlights limitations of steady-state-only reasoning.
 
 </details>
----
-
-### Thermal Cable Model
-**Context:** Academic team project (Numerical Modeling)  
-**Focus:** Heat transfer, finite-difference methods
-
-**What I did**
-- Implemented a finite-difference thermal model in Python
-- Simulated transient temperature evolution in a cable
-- Studied the effect of material properties and boundary conditions
-
-**Key results**
-- Radial temperature profiles
-- Sensitivity to thermal parameters
-
-**Links**
-- 📄 Report (PDF)
-- 📊 Results & figures
-- 💻 Code
-
 ---
 
 ## Skills & Tools
