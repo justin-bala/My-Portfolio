@@ -31,13 +31,15 @@ Development of a plant-wide mass balance and an operator-oriented Excel simulato
 The goal was to create a tool that reflects how process calculations would be used in practice.
 
 <details>
-<summary><strong>Discussion</strong></summary>
-  
-- Thermal variables respond faster than concentration and inventory
-- Linearized models are accurate only near the operating point
-- Dynamic analysis highlights limitations of steady-state assumptions
+<summary><strong>Simulator details</strong></summary>
+
+- Feed-flow-based plant-wide mass balance  
+- Automated flowrate propagation across all units  
+- Parameter variation (air excess, inlet temperatures, etc.)  
+- Input constraints and safeguards to prevent calculation errors  
 
 </details>
+
 
 
 #### Part III - Steady-State Modelling of an Evaporator Cascade
