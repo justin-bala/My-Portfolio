@@ -8,11 +8,35 @@ My academic projects emphasize using modeling and simulation as tools to underst
 
 ## Projects
 
-### Dynamic Evaporator Model
-**Context:** Academic team project (Chemical Engineering)  
-**Focus:** Mass & energy balances, steady-state and transient modeling
-This project focuses on the dynamic modeling of an industrial evaporator,
-with emphasis on transient behavior and system coupling.
+### Sugar Extraction & Evaporation Process
+
+This academic team project involved the process understanding, modeling, and simulation of an industrial sugar extraction plant, with a focus on mass and energy balances, steady-state operation, and dynamic behavior of evaporator systems.
+
+The work progressed from process analysis and process flow diagram (PFD) development, through plant-wide mass balance implementation, to steady-state and transient modeling of a multi-effect evaporator cascade.
+The objective was not only to obtain numerical results, but to build engineering tools and models that reflect real operating behavior and can be used for analysis and decision-making.
+
+#### Part I - Process Understanding and Process Flow Diagram (PFD)
+The first part of the project focused on the understand the overall sugar extraction process through literature review, then a PFD was developed using Visio from the plant description provided by professors. 
+![Sugar Plant Flowsheet](assets/sugar_PFD.pdf)
+
+#### Part II - Plant-Wide Mass Balance & Operator-Oriented Simulator
+Using the developed flowsheet, mass balances were calculated across the entire plant, linking all major units and process streams.
+To operationalize these calculations, a plant-wide simulator was developed in Excel using VBA and macros.
+
+The simulator allows users to:
+    - define a basis flowrate of the primary feed
+    - automatically compute flowrates throughout all downstream equipment
+    - modify operating parameters such as air excess, inlet temperatures, and other process conditions
+
+The goal was to create a tool that reflects how process calculations would be used in practice.
+#### Part III - Steady-State Modelling of an Evaporator Cascade
+In the third phase, the evaporation section of the plant was modeled in more detail.
+A five-effect evaporator cascade operating in series was simulated at steady state using Aspen HYSYS.
+
+![Aspen HYSYS Simulation](assets/evap_cascade.png)
+
+#### Part IV - Dynamic Evaporator Model
+Finally, the evaporator system was modeled dynamically to study transient behavior under operating disturbances.
 
 **What I did**
 - Developed and analyzed a dynamic evaporator model in Python
@@ -51,14 +75,6 @@ with emphasis on transient behavior and system coupling.
 
 
 </details>
-
-
-
-**Links**
-- 📄 Report (PDF)
-- 📊 Results & figures
-- 💻 Code
-
 ---
 
 ### Thermal Cable Model
