@@ -14,11 +14,6 @@ My academic projects emphasize using modeling and simulation as tools to underst
 This project focuses on the dynamic modeling of an industrial evaporator,
 with emphasis on transient behavior and system coupling.
 
-<details>
-<summary><strong>Description</strong></summary>
-...
-</details>
-
 **What I did**
 - Developed and analyzed a dynamic evaporator model in Python
 - Implemented steady-state and transient simulations
@@ -27,6 +22,14 @@ with emphasis on transient behavior and system coupling.
 **Key results**
 - Time-dependent temperature and concentration profiles
 - Comparison between steady-state and dynamic behavior
+  
+<details>
+<summary><strong>Description</strong></summary>
+  
+
+</details>
+
+
 
 **Links**
 - 📄 Report (PDF)
