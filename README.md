@@ -31,21 +31,21 @@ with emphasis on transient behavior and system coupling.
 <table>
   <tr>
     <td align="center">
-      <img src="assets/RP.png" width="350"><br>
+      <img src="assets/RP.png" width="500"><br>
       <em>Caption for figure 1</em>
     </td>
     <td align="center">
-      <img src="assets/per_Tc.png" width="350"><br>
+      <img src="assets/per_Tc.png" width="500"><br>
       <em>Caption for figure 2</em>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/per_deb_liq.png" width="350"><br>
+      <img src="assets/per_deb_liq.png" width="500"><br>
       <em>Caption for figure 3</em>
     </td>
     <td align="center">
-      <img src="assets/per_fv.png" width="350"><br>
+      <img src="assets/per_fv.png" width="500"><br>
       <em>Caption for figure 4</em>
     </td>
   </tr>
