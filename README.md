@@ -23,33 +23,31 @@ with emphasis on transient behavior and system coupling.
 - Time-dependent temperature and concentration profiles
 - Comparison between steady-state and dynamic behavior
 
-
-
-  
-<details>
-<summary><strong>Results</strong></summary>
 <table>
   <tr>
     <td align="center">
-      <img src="assets/RP.png" width="500"><br>
-      <em>Caption for figure 1</em>
+      <img src="assets/RP.png" width="600"><br>
+      <em>State Variables at Steady-State</em>
     </td>
     <td align="center">
-      <img src="assets/per_Tc.png" width="500"><br>
-      <em>Caption for figure 2</em>
+      <img src="assets/per_Tc.png" width="600"><br>
+      <em>Effect on Stage Variables with a 5% increase on Heating Jacket Temperature</em>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/per_deb_liq.png" width="500"><br>
-      <em>Caption for figure 3</em>
+      <img src="assets/per_deb_liq.png" width="600"><br>
+      <em>Effect on Stage Variables with a 10% increase on Liquid Feed Flowrate</em>
     </td>
     <td align="center">
-      <img src="assets/per_fv.png" width="500"><br>
-      <em>Caption for figure 4</em>
+      <img src="assets/per_fv.png" width="600"><br>
+      <em>Effect on Stage Variables with a 5% decrease on Vapor Outlet Flowrate</em>
     </td>
   </tr>
 </table>
+
+<details>
+<summary><strong>Discussion</strong></summary>
 
 
 </details>
