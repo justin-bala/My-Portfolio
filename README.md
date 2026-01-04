@@ -1,8 +1,8 @@
 # Justin Ralph Bala
-**Chemical Engineering — Modeling & Simulation**
+**Chemical Engineering at Polytechnique Montréal**
 
-I am a chemical engineering student with a strong focus on numerical modeling, simulation, and process analysis.  
-This page presents selected academic projects that demonstrate my approach to engineering problems.
+I am a chemical engineering student in the biofabrication/ biomanufacturing stream. This page presents selected projects that reflect my approach to engineering analysis and problem-solving.
+My academic projects emphasize using modeling and simulation as tools to understand process behavior
 
 ---
 
@@ -11,6 +11,13 @@ This page presents selected academic projects that demonstrate my approach to en
 ### Dynamic Evaporator Model
 **Context:** Academic team project (Chemical Engineering)  
 **Focus:** Mass & energy balances, steady-state and transient modeling
+This project focuses on the dynamic modeling of an industrial evaporator,
+with emphasis on transient behavior and system coupling.
+
+<details>
+<summary><strong>Description</strong></summary>
+...
+</details>
 
 **What I did**
 - Developed and analyzed a dynamic evaporator model in Python
