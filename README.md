@@ -20,7 +20,7 @@ Literature-based understanding of the sugar extraction process and development o
 <details>
 <summary><strong>Sugar Plant Flowsheet</strong></summary>
 
-**Sugar Plant Flowsheet**
+** **
 
 ![Sugar Plant Flowsheet](assets/sugar_PFD.png)
   
@@ -90,6 +90,7 @@ Steady-state simulation of a five-effect evaporator cascade in series using Aspe
 - Dynamic analysis highlights limitations of steady-state-only reasoning.
   
 </details>
+
 ---
 
 ## Skills & Tools
