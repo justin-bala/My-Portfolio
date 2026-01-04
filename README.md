@@ -31,17 +31,17 @@ with emphasis on transient behavior and system coupling.
     </td>
     <td align="center">
       <img src="assets/per_Tc.png" width="600"><br>
-      <em>Effect on Stage Variables with a 5% increase on Heating Jacket Temperature</em>
+      <em>Effect on State Variables with a 5% increase on Heating Jacket Temperature</em>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="assets/per_deb_liq.png" width="600"><br>
-      <em>Effect on Stage Variables with a 10% increase on Liquid Feed Flowrate</em>
+      <em>Effect on State Variables with a 10% increase on Liquid Feed Flowrate</em>
     </td>
     <td align="center">
       <img src="assets/per_fv.png" width="600"><br>
-      <em>Effect on Stage Variables with a 5% decrease on Vapor Outlet Flowrate</em>
+      <em>Effect on State Variables with a 5% decrease on Vapor Outlet Flowrate</em>
     </td>
   </tr>
 </table>
