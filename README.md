@@ -85,21 +85,21 @@ Aspen HYSYS, including energy integration and sensitivity analysis.
 <table>
   <tr>
     <td align="center">
-      <img src="assets/RP.png" width="800"><br>
+      <img src="assets/RP.png" width="650"><br>
       <em>State variables at steady state</em>
     </td>
     <td align="center">
-      <img src="assets/per_Tc.png" width="800"><br>
+      <img src="assets/per_Tc.png" width="650"><br>
       <em>Effect of a 5% increase in heating jacket temperature</em>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/per_deb_liq.png" width="800"><br>
+      <img src="assets/per_deb_liq.png" width="650"><br>
       <em>Effect of a 10% increase in liquid feed flowrate</em>
     </td>
     <td align="center">
-      <img src="assets/per_fv.png" width="8000"><br>
+      <img src="assets/per_fv.png" width="650"><br>
       <em>Effect of a 5% decrease in vapor outlet flowrate</em>
     </td>
   </tr>
