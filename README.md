@@ -9,9 +9,7 @@ Chemical engineering student in the biofabrication / biomanufacturing stream. Th
 
 ---
 
-### Plant-Wide Modeling and Analysis of a Sugar Extraction Process
-
----
+### **Plant-Wide Modeling and Analysis of a Sugar Extraction Process**
 
 End-to-end modeling and analysis of an industrial sugar extraction plant, with emphasis on mass and energy balances, steady-state operation, and dynamic behavior of evaporator systems.
 
