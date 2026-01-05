@@ -11,8 +11,7 @@ Chemical engineering student in the biofabrication / biomanufacturing stream. Th
 
 ### Plant-Wide Modeling and Analysis of a Sugar Extraction Process
 
-End-to-end modeling and analysis of an industrial sugar extraction plant, with emphasis on
-mass and energy balances, steady-state operation, and dynamic behavior of evaporator systems.
+End-to-end modeling and analysis of an industrial sugar extraction plant, with emphasis on mass and energy balances, steady-state operation, and dynamic behavior of evaporator systems.
 
 **Tools:** Excel (VBA), Aspen HYSYS, Python, MS Visio 
 
@@ -23,12 +22,11 @@ mass and energy balances, steady-state operation, and dynamic behavior of evapor
 
 ---
 
+
 #### Phase I — Process Understanding & Process Flow Diagram (PFD)
 
-Development of a structured understanding of the sugar extraction process based on
-technical literature and the plant description provided.  
-An industrial-style process flow diagram (PFD) was developed **individually** via MS Visio to represent
-major unit operations and material flows.
+Development of a structured understanding of the sugar extraction process based on technical literature and the plant description provided.  
+An industrial-style process flow diagram (PFD) was developed **individually** using MS Visio to represent major unit operations and material flows.
 
 <details>
 <summary><strong>Sugar Plant Flowsheet (PFD)</strong></summary>
@@ -41,16 +39,13 @@ major unit operations and material flows.
 
 ---
 
+
 #### Phase II — Plant-Wide Mass Balance & Operator-Oriented Simulator
 
-Design and implementation of a **plant-wide mass balance** coupled with an
-**operator-oriented Excel simulator** (VBA/macros), allowing users to define a feed basis
-and explore operating conditions while preserving calculation integrity.
+Design and implementation of a **plant-wide mass balance** coupled with an **operator-oriented Excel simulator** (VBA/macros), allowing users to define a feed basis and explore operating conditions while preserving calculation integrity.
 
-My primary contribution focused on the **mass balance formulation and simulator logic**,
-including flow propagation and numerical consistency.  
-Additional improvements to usability, input handling, and safeguards were implemented
-**independently after the project**.
+My primary contribution focused on the **mass balance formulation and simulator logic**, including flow propagation and numerical consistency.  
+Additional improvements to usability, input handling, and safeguards were implemented **independently after the project**.
 
 <details>
 <summary><strong>Simulator features</strong></summary>
@@ -68,11 +63,8 @@ Additional improvements to usability, input handling, and safeguards were implem
 
 #### Phase III — Steady-State Modeling of an Evaporator Cascade
 
-Steady-state simulation of a **five-effect evaporator cascade** operating in series using
-Aspen HYSYS.  
-The model incorporated energy integration and was used to perform sensitivity analyses on
-key operating parameters.  
-This phase was completed **individually**.
+Steady-state simulation of a **five-effect evaporator cascade** operating in series using Aspen HYSYS.  
+The model incorporated energy integration and was used to perform sensitivity analyses on key operating parameters. This phase was completed **individually**.
 
 <p align="center">
   <img src="assets/evap_cascade.png" width="700" alt="Five-effect evaporator cascade">
@@ -82,18 +74,18 @@ This phase was completed **individually**.
 
 #### Phase IV — Dynamic Modeling of an Evaporator System
 
-Dynamic modeling of a **single evaporator unit** to analyze transient behavior under
-operating disturbances.  
-The system was represented by a coupled set of ordinary differential equations describing
-liquid concentration, pressure, temperature, and liquid level.
+Dynamic modeling of a **single evaporator unit** to analyze transient behavior under operating disturbances.  
+The system was represented by a coupled set of ordinary differential equations describing liquid concentration, pressure, temperature, and liquid level.
 
 **My contribution**
+
 - Development of a nonlinear dynamic evaporator model in Python  
 - Implementation of steady-state and transient simulations  
 - Linearization around steady state and derivation of transfer-function representations  
 - Interpretation of process behavior under controlled disturbances  
 
 **Representative results**
+
 - Time-dependent profiles of temperature, concentration, liquid level, and pressure  
 - Transient responses to step changes in operating conditions  
 - Comparison between steady-state predictions and dynamic behavior  
@@ -136,10 +128,6 @@ liquid concentration, pressure, temperature, and liquid level.
 </details>
 
 ---
-
-**Code availability**  
-To respect academic reuse of the project, full implementations (Excel macros and Python
-scripts) are not shared publicly but can be discussed or reviewed upon request.
 
 </details>
 
