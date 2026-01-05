@@ -81,7 +81,7 @@ Aspen HYSYS, including energy integration and sensitivity analysis.
 - Comparison between steady-state and transient responses
 - Evaluation of model fidelity under different disturbance magnitudes
 - Comparison of different dynamic modeling approaches (nonlinear model, linearized model via Jacobian, and transfer-function representations)
-  
+
 <table>
   <tr>
     <td align="center">
