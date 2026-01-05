@@ -15,6 +15,7 @@ End-to-end modeling and analysis of an industrial sugar extraction plant, with e
 mass and energy balances, steady-state operation, and dynamic behavior of evaporator systems.
 
 **Tools:** Excel (VBA), Aspen HYSYS, Python, MS Visio 
+
 **Focus:** Process modeling · Energy analysis · Dynamic systems
 
 <details>
