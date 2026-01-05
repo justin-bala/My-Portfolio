@@ -36,30 +36,23 @@ An industrial-style process flow diagram (PFD) was developed <strong>individuall
 </details>
 
 <h4>Phase II — Plant-Wide Mass Balance &amp; Operator-Oriented Simulator</h4>
-
 <p>
-Design and implementation of a <strong>plant-wide mass balance</strong> coupled with an <strong>operator-oriented Excel simulator</strong> (VBA/macros), allowing users to define a feed basis and explore operating conditions while preserving calculation integrity.
+Design and implementation of a <strong>plant-wide, feed-defined mass balance</strong> in the form of an <strong>operator-oriented Excel simulator</strong> (VBA/macros). The tool allows users to vary operating conditions and observe their impact on the process while maintaining numerical consistency.
 </p>
-
-<p>
-My primary contribution focused on the <strong>mass balance formulation and simulator logic</strong>, including flow propagation and numerical consistency.<br>
-Additional improvements to usability, input handling, and safeguards were implemented <strong>independently after the project</strong>.
-</p>
-
-<details>
-<summary><strong>Excel simulator overview</strong></summary>
-
-<ul>
-  <li>Custom Excel-based simulator built around a feed-defined mass balance</li>
-  <li>Automatic propagation of flowrates across all process units</li>
-  <li>User-adjustable operating parameters with protected calculation cells</li>
-  <li>Consistency checks to prevent non-physical operating conditions</li>
-  <li>Designed to support rapid “what-if” analysis rather than detailed optimization</li>
-</ul>
 
 <p><em>
-The simulator was designed as an operator-oriented tool, prioritizing clarity, robustness, and ease of use over model complexity.
+I contributed primarily to the mass balance formulation and simulator logic, and later extended the tool with additional input handling and safeguards.
 </em></p>
+
+<details>
+<summary><strong>Simulator Features</strong></summary>
+
+<ul>
+  <li>Automatic propagation of flowrates across interconnected process units</li>
+  <li>User-adjustable operating parameters with protected calculation cells</li>
+  <li>Built-in checks to prevent non-physical operating conditions</li>
+  <li>Designed for rapid “what-if” analysis rather than detailed optimization</li>
+</ul>
 
 </details>
 
