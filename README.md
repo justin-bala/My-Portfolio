@@ -21,8 +21,6 @@ End-to-end modeling and analysis of an industrial sugar extraction plant, with e
   
 <summary><strong>View project details</strong></summary>
 
----
-
 
 #### Phase I — Process Understanding & Process Flow Diagram (PFD)
 
@@ -39,8 +37,6 @@ An industrial-style process flow diagram (PFD) was developed **individually** us
 
 </details>
 
----
-
 
 #### Phase II — Plant-Wide Mass Balance & Operator-Oriented Simulator
 
@@ -50,6 +46,7 @@ My primary contribution focused on the **mass balance formulation and simulator 
 Additional improvements to usability, input handling, and safeguards were implemented **independently after the project**.
 
 <details>
+  
 <summary><strong>Simulator features</strong></summary>
 
 <ul>
@@ -61,7 +58,6 @@ Additional improvements to usability, input handling, and safeguards were implem
 
 </details>
 
----
 
 #### Phase III — Steady-State Modeling of an Evaporator Cascade
 
@@ -72,7 +68,6 @@ The model incorporated energy integration and was used to perform sensitivity an
   <img src="assets/evap_cascade.png" width="700" alt="Five-effect evaporator cascade">
 </p>
 
----
 
 #### Phase IV — Dynamic Modeling of an Evaporator System
 
@@ -128,8 +123,6 @@ The system was represented by a coupled set of ordinary differential equations d
 </ul>
 
 </details>
-
----
 
 </details>
 
