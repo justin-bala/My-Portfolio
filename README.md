@@ -147,4 +147,3 @@ The system was represented by a coupled set of ordinary differential equations d
 
 - LinkedIn: https://www.linkedin.com/in/justinralph-bala  
 - GitHub: https://github.com/Justin-Bala
-
