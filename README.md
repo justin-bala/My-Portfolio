@@ -71,6 +71,8 @@ Aspen HYSYS, including energy integration and sensitivity analysis.
 
 #### Part IV — Dynamic Evaporator Model
 
+In this final phase, a single evaporator system was modeled dynamically to analyze transient behavior under disturbances, using a coupled system of four ordinary differential equations representing concentration, pressure, temperature, and liquid level.
+
 **My contribution**
 - Development and analysis of a dynamic evaporator model in Python
 - Implementation of steady-state and transient simulations
