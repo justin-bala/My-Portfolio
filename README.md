@@ -14,7 +14,7 @@ Chemical engineering student in the biofabrication / biomanufacturing stream. Th
 End-to-end modeling and analysis of an industrial sugar extraction plant, with emphasis on
 mass and energy balances, steady-state operation, and dynamic behavior of evaporator systems.
 
-**Tools:** Excel (VBA), Aspen HYSYS, Python  
+**Tools:** Excel (VBA), Aspen HYSYS, Python, MS Visio 
 **Focus:** Process modeling · Energy analysis · Dynamic systems
 
 <details>
@@ -26,7 +26,7 @@ mass and energy balances, steady-state operation, and dynamic behavior of evapor
 
 Development of a structured understanding of the sugar extraction process based on
 technical literature and the plant description provided.  
-An industrial-style process flow diagram (PFD) was developed **individually** to represent
+An industrial-style process flow diagram (PFD) was developed **individually** via MS Visio to represent
 major unit operations and material flows.
 
 <details>
