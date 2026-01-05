@@ -47,14 +47,19 @@ Additional improvements to usability, input handling, and safeguards were implem
 </p>
 
 <details>
-<summary><strong>Simulator features</strong></summary>
+<summary><strong>Excel simulator overview</strong></summary>
 
 <ul>
-  <li>Feed-based plant-wide mass balance</li>
-  <li>Automated flowrate propagation across interconnected process units</li>
-  <li>Parameter variation (air excess, inlet temperatures, operating conditions)</li>
-  <li>Input constraints and safeguards to prevent non-physical or unstable calculations</li>
+  <li>Custom Excel-based simulator built around a feed-defined mass balance</li>
+  <li>Automatic propagation of flowrates across all process units</li>
+  <li>User-adjustable operating parameters with protected calculation cells</li>
+  <li>Consistency checks to prevent non-physical operating conditions</li>
+  <li>Designed to support rapid “what-if” analysis rather than detailed optimization</li>
 </ul>
+
+<p><em>
+The simulator was designed as an operator-oriented tool, prioritizing clarity, robustness, and ease of use over model complexity.
+</em></p>
 
 </details>
 
