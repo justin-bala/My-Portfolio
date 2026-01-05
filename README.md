@@ -9,7 +9,7 @@ Chemical engineering student in the biofabrication / biomanufacturing stream. Th
 
 ---
 
-### **Plant-Wide Modeling and Analysis of a Sugar Extraction Process**
+### Plant-Wide Modeling and Analysis of a Sugar Extraction Process
 
 End-to-end modeling and analysis of an industrial sugar extraction plant, with emphasis on mass and energy balances, steady-state operation, and dynamic behavior of evaporator systems.
 
@@ -23,8 +23,6 @@ End-to-end modeling and analysis of an industrial sugar extraction plant, with e
 
 
 #### Phase I — Process Understanding & Process Flow Diagram (PFD)
-
----
 
 Development of a structured understanding of the sugar extraction process based on technical literature and the plant description provided.  
 An industrial-style process flow diagram (PFD) was developed **individually** using MS Visio to represent major unit operations and material flows.
@@ -41,8 +39,6 @@ An industrial-style process flow diagram (PFD) was developed **individually** us
 
 
 #### Phase II — Plant-Wide Mass Balance & Operator-Oriented Simulator
-
----
 
 Design and implementation of a **plant-wide mass balance** coupled with an **operator-oriented Excel simulator** (VBA/macros), allowing users to define a feed basis and explore operating conditions while preserving calculation integrity.
 
@@ -65,8 +61,6 @@ Additional improvements to usability, input handling, and safeguards were implem
 
 #### Phase III — Steady-State Modeling of an Evaporator Cascade
 
----
-
 Steady-state simulation of a **five-effect evaporator cascade** operating in series using Aspen HYSYS.  
 The model incorporated energy integration and was used to perform sensitivity analyses on key operating parameters. This phase was completed **individually**.
 
@@ -76,8 +70,6 @@ The model incorporated energy integration and was used to perform sensitivity an
 
 
 #### Phase IV — Dynamic Modeling of an Evaporator System
-
----
 
 Dynamic modeling of a **single evaporator unit** to analyze transient behavior under operating disturbances.  
 The system was represented by a coupled set of ordinary differential equations describing liquid concentration, pressure, temperature, and liquid level.
