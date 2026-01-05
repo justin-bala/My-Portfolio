@@ -27,15 +27,15 @@ End-to-end modeling and analysis of an industrial sugar extraction plant, with e
 Development of a structured understanding of the sugar extraction process based on technical literature and the plant description provided.  
 An industrial-style process flow diagram (PFD) was developed **individually** using MS Visio to represent major unit operations and material flows.
 
-<details>
+  <details>
+    
+  <summary><strong>Sugar Plant Flowsheet (PFD)</strong></summary>
   
-<summary><strong>Sugar Plant Flowsheet (PFD)</strong></summary>
-
-<p align="center">
-  <img src="assets/sugar_PFD.png" width="900" alt="Sugar Plant Flowsheet">
-</p>
-
-</details>
+  <p align="center">
+    <img src="assets/sugar_PFD.png" width="900" alt="Sugar Plant Flowsheet">
+  </p>
+  
+  </details>
 
 
 #### Phase II — Plant-Wide Mass Balance & Operator-Oriented Simulator
@@ -45,18 +45,18 @@ Design and implementation of a **plant-wide mass balance** coupled with an **ope
 My primary contribution focused on the **mass balance formulation and simulator logic**, including flow propagation and numerical consistency.  
 Additional improvements to usability, input handling, and safeguards were implemented **independently after the project**.
 
-<details>
+  <details>
+    
+  <summary><strong>Simulator features</strong></summary>
   
-<summary><strong>Simulator features</strong></summary>
-
-<ul>
-  <li>Feed-based plant-wide mass balance</li>
-  <li>Automated flowrate propagation across interconnected process units</li>
-  <li>Parameter variation (air excess, inlet temperatures, operating conditions)</li>
-  <li>Input constraints and safeguards to prevent non-physical or unstable calculations</li>
-</ul>
-
-</details>
+  <ul>
+    <li>Feed-based plant-wide mass balance</li>
+    <li>Automated flowrate propagation across interconnected process units</li>
+    <li>Parameter variation (air excess, inlet temperatures, operating conditions)</li>
+    <li>Input constraints and safeguards to prevent non-physical or unstable calculations</li>
+  </ul>
+  
+  </details>
 
 
 #### Phase III — Steady-State Modeling of an Evaporator Cascade
@@ -111,18 +111,19 @@ The system was represented by a coupled set of ordinary differential equations d
   </tr>
 </table>
 
-<details>
-<summary><strong>Key technical observations</strong></summary>
-
-<ul>
-  <li>Linearized and transfer-function models produced identical responses, as expected, while deviations from the nonlinear model were observed for certain disturbances and state variables.</li>
-  <li>An increase in liquid feed flow led to liquid accumulation, reduced evaporation, and a decrease in outlet concentration; only the nonlinear model consistently captured the expected physical behavior.</li>
-  <li>An increase in heating jacket temperature enhanced evaporation, increased pressure and temperature, and resulted in a higher outlet concentration, making this disturbance the most favorable from an operational standpoint.</li>
-  <li>A reduction in vapor outlet flow caused vapor accumulation, increased pressure and boiling temperature, and slowed evaporation, ultimately reducing outlet concentration.</li>
-  <li>Dynamic simulations highlighted strong coupling between heat input, evaporation rate, pressure, and liquid inventory, revealing behaviors not observable through steady-state analysis alone.</li>
-</ul>
-
-</details>
+  <details>
+    
+  <summary><strong>Key technical observations</strong></summary>
+  
+  <ul>
+    <li>Linearized and transfer-function models produced identical responses, as expected, while deviations from the nonlinear model were observed for certain disturbances and state variables.</li>
+    <li>An increase in liquid feed flow led to liquid accumulation, reduced evaporation, and a decrease in outlet concentration; only the nonlinear model consistently captured the expected physical behavior.</li>
+    <li>An increase in heating jacket temperature enhanced evaporation, increased pressure and temperature, and resulted in a higher outlet concentration, making this disturbance the most favorable from an operational standpoint.</li>
+    <li>A reduction in vapor outlet flow caused vapor accumulation, increased pressure and boiling temperature, and slowed evaporation, ultimately reducing outlet concentration.</li>
+    <li>Dynamic simulations highlighted strong coupling between heat input, evaporation rate, pressure, and liquid inventory, revealing behaviors not observable through steady-state analysis alone.</li>
+  </ul>
+  
+  </details>
 
 ---
 
