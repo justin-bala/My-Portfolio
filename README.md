@@ -18,6 +18,7 @@ End-to-end modeling and analysis of an industrial sugar extraction plant, with e
 **Focus:** Process modeling · Energy analysis · Dynamic systems
 
 <details>
+  
 <summary><strong>View project details</strong></summary>
 
 ---
@@ -29,6 +30,7 @@ Development of a structured understanding of the sugar extraction process based 
 An industrial-style process flow diagram (PFD) was developed **individually** using MS Visio to represent major unit operations and material flows.
 
 <details>
+  
 <summary><strong>Sugar Plant Flowsheet (PFD)</strong></summary>
 
 <p align="center">
