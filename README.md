@@ -115,19 +115,6 @@ The system was represented by a coupled set of ordinary differential equations d
   </tr>
 </table>
 
-<details>
-<summary><strong>Key technical observations</strong></summary>
-
-<ul>
-  <li>Linearized and transfer-function models produced identical responses, as expected, while deviations from the nonlinear model were observed for certain disturbances and state variables.</li>
-  <li>An increase in liquid feed flow led to liquid accumulation, reduced evaporation, and a decrease in outlet concentration; only the nonlinear model consistently captured the expected physical behavior.</li>
-  <li>An increase in heating jacket temperature enhanced evaporation, increased pressure and temperature, and resulted in a higher outlet concentration, making this disturbance the most favorable from an operational standpoint.</li>
-  <li>A reduction in vapor outlet flow caused vapor accumulation, increased pressure and boiling temperature, and slowed evaporation, ultimately reducing outlet concentration.</li>
-  <li>Dynamic simulations highlighted strong coupling between heat input, evaporation rate, pressure, and liquid inventory, revealing behaviors not observable through steady-state analysis alone.</li>
-</ul>
-
-</details>
-
 </details>
 
 ---
