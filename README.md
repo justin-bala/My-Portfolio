@@ -74,32 +74,32 @@ Aspen HYSYS, including energy integration and sensitivity analysis.
 **My contribution**
 - Development and analysis of a dynamic evaporator model in Python
 - Implementation of steady-state and transient simulations
-- Comparison of different dynamic modeling approaches (nonlinear model, linearized model via Jacobian, and transfer-function representations)
 - Interpretation of process behavior under operating disturbances
 
 **Representative results**
 - Time-dependent temperature, concentration, liquid level, and pressure profiles
 - Comparison between steady-state and transient responses
 - Evaluation of model fidelity under different disturbance magnitudes
-
+- Comparison of different dynamic modeling approaches (nonlinear model, linearized model via Jacobian, and transfer-function representations)
+  
 <table>
   <tr>
     <td align="center">
-      <img src="assets/RP.png" width="550"><br>
+      <img src="assets/RP.png" width="800"><br>
       <em>State variables at steady state</em>
     </td>
     <td align="center">
-      <img src="assets/per_Tc.png" width="550"><br>
+      <img src="assets/per_Tc.png" width="800"><br>
       <em>Effect of a 5% increase in heating jacket temperature</em>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/per_deb_liq.png" width="550"><br>
+      <img src="assets/per_deb_liq.png" width="800"><br>
       <em>Effect of a 10% increase in liquid feed flowrate</em>
     </td>
     <td align="center">
-      <img src="assets/per_fv.png" width="550"><br>
+      <img src="assets/per_fv.png" width="8000"><br>
       <em>Effect of a 5% decrease in vapor outlet flowrate</em>
     </td>
   </tr>
