@@ -5,20 +5,29 @@ Chemical engineering student in the biofabrication / biomanufacturing stream. Th
 
 ---
 
-## Project  
-## Plant-Wide Modeling and Analysis of a Sugar Extraction Process
-
-This academic team project involved the **modeling and analysis of an industrial sugar extraction plant**, with a focus on mass and energy balances, steady-state operation, and dynamic behavior of evaporator systems.
-
-The work progressed through multiple engineering phases, from process understanding and flowsheet development to plant-wide mass balance implementation, steady-state simulation, and dynamic modeling.  
-Across these phases, the objective was to develop **engineering tools that reflect real operating behavior**, rather than purely theoretical models.
+## Projects
 
 ---
 
-### Phase I — Process Understanding & Process Flow Diagram (PFD)
+### Plant-Wide Modeling and Analysis of a Sugar Extraction Process
 
-Development of a structured understanding of the sugar extraction process based on technical literature and the plant description provided.  
-An industrial-style process flow diagram (PFD) was developed **individually** to represent major unit operations and material flows.
+End-to-end modeling and analysis of an industrial sugar extraction plant, with emphasis on
+mass and energy balances, steady-state operation, and dynamic behavior of evaporator systems.
+
+**Tools:** Excel (VBA), Aspen HYSYS, Python  
+**Focus:** Process modeling · Energy analysis · Dynamic systems
+
+<details>
+<summary><strong>View project details</strong></summary>
+
+---
+
+#### Phase I — Process Understanding & Process Flow Diagram (PFD)
+
+Development of a structured understanding of the sugar extraction process based on
+technical literature and the plant description provided.  
+An industrial-style process flow diagram (PFD) was developed **individually** to represent
+major unit operations and material flows.
 
 <details>
 <summary><strong>Sugar Plant Flowsheet (PFD)</strong></summary>
@@ -31,12 +40,16 @@ An industrial-style process flow diagram (PFD) was developed **individually** to
 
 ---
 
-### Phase II — Plant-Wide Mass Balance & Operator-Oriented Simulator
+#### Phase II — Plant-Wide Mass Balance & Operator-Oriented Simulator
 
-Design and implementation of a **plant-wide mass balance** coupled with an **operator-oriented Excel simulator** (VBA/macros), allowing users to define a feed basis and explore operating conditions while preserving calculation integrity.
+Design and implementation of a **plant-wide mass balance** coupled with an
+**operator-oriented Excel simulator** (VBA/macros), allowing users to define a feed basis
+and explore operating conditions while preserving calculation integrity.
 
-My primary contribution focused on the **mass balance formulation and simulator logic**, including flow propagation and numerical consistency.  
-Additional improvements to usability, input handling, and safeguards were implemented **independently after the project**.
+My primary contribution focused on the **mass balance formulation and simulator logic**,
+including flow propagation and numerical consistency.  
+Additional improvements to usability, input handling, and safeguards were implemented
+**independently after the project**.
 
 <details>
 <summary><strong>Simulator features</strong></summary>
@@ -52,10 +65,12 @@ Additional improvements to usability, input handling, and safeguards were implem
 
 ---
 
-### Phase III — Steady-State Modeling of an Evaporator Cascade
+#### Phase III — Steady-State Modeling of an Evaporator Cascade
 
-Steady-state simulation of a **five-effect evaporator cascade** operating in series using Aspen HYSYS.  
-The model incorporated energy integration and was used to perform sensitivity analyses on key operating parameters.  
+Steady-state simulation of a **five-effect evaporator cascade** operating in series using
+Aspen HYSYS.  
+The model incorporated energy integration and was used to perform sensitivity analyses on
+key operating parameters.  
 This phase was completed **individually**.
 
 <p align="center">
@@ -64,18 +79,20 @@ This phase was completed **individually**.
 
 ---
 
-### Phase IV — Dynamic Modeling of an Evaporator System
+#### Phase IV — Dynamic Modeling of an Evaporator System
 
-In the final phase, a **single evaporator unit** was modeled dynamically to study transient behavior under operating disturbances.  
-The system was represented by a coupled set of ordinary differential equations describing liquid concentration, pressure, temperature, and liquid level.
+Dynamic modeling of a **single evaporator unit** to analyze transient behavior under
+operating disturbances.  
+The system was represented by a coupled set of ordinary differential equations describing
+liquid concentration, pressure, temperature, and liquid level.
 
-#### My contribution
+**My contribution**
 - Development of a nonlinear dynamic evaporator model in Python  
 - Implementation of steady-state and transient simulations  
-- Linearization of the model around steady state and derivation of transfer-function representations  
+- Linearization around steady state and derivation of transfer-function representations  
 - Interpretation of process behavior under controlled disturbances  
 
-#### Representative results
+**Representative results**
 - Time-dependent profiles of temperature, concentration, liquid level, and pressure  
 - Transient responses to step changes in operating conditions  
 - Comparison between steady-state predictions and dynamic behavior  
@@ -119,6 +136,14 @@ The system was represented by a coupled set of ordinary differential equations d
 
 ---
 
+**Code availability**  
+To respect academic reuse of the project, full implementations (Excel macros and Python
+scripts) are not shared publicly but can be discussed or reviewed upon request.
+
+</details>
+
+---
+
 ## Skills & Tools Demonstrated
 
 - Python (NumPy, SciPy, Matplotlib)  
@@ -127,6 +152,7 @@ The system was represented by a coupled set of ordinary differential equations d
 - Aspen HYSYS  
 - Mass and energy balance implementation  
 - Technical analysis and documentation  
+
 
 ---
 
