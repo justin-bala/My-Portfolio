@@ -117,18 +117,3 @@ The system was represented by a coupled set of ordinary differential equations d
 
 ---
 
-## Skills & Tools Demonstrated
-
-- Python (NumPy, SciPy, Matplotlib)  
-- Numerical solution of ordinary differential equations  
-- Process modeling and simulation  
-- Aspen HYSYS  
-- Mass and energy balance implementation  
-- Technical analysis and documentation  
-
----
-
-## Contact
-
-- LinkedIn: https://www.linkedin.com/in/justinralph-bala  
-- GitHub: https://github.com/Justin-Bala
