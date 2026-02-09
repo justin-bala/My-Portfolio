@@ -27,7 +27,7 @@ An industrial-style process flow diagram (PFD) was developed <strong>individuall
 </p>
 
 <details>
-<summary><strong>Sugar Plant Flowsheet (PFD)</strong></summary>
+<summary><em>Sugar Plant Flowsheet (PFD)</em></summary>
 
 <p align="center">
   <img src="assets/sugar_PFD.png" width="900" alt="Sugar Plant Flowsheet">
@@ -45,7 +45,7 @@ I contributed primarily to the mass balance formulation and simulator logic, and
 </em></p>
 
 <details>
-<summary><strong>Simulator Features</strong></summary>
+<summary><em>Simulator Features</em></summary>
 
 <ul>
   <li>Automatic propagation of flowrates across interconnected process units</li>
