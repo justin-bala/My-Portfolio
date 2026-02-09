@@ -21,7 +21,7 @@ Development of a structured understanding of the sugar extraction process based 
 An industrial-style process flow diagram (PFD) was developed **individually** using MS Visio to represent major unit operations and material flows.
 
 <details>
-<summary><em>Figure — Sugar Plant Flowsheet (PFD)</em></summary>
+<summary><Strong>Figure — Sugar Plant Flowsheet (PFD)<Strong></summary>
 
 <p align="center">
   <img src="assets/sugar_PFD.png" width="900" alt="Sugar Plant Flowsheet">
@@ -36,7 +36,7 @@ Design and implementation of a **plant-wide, feed-defined mass balance** in the 
 <em>I contributed primarily to the mass balance formulation and simulator logic, and later extended the tool with additional input handling and safeguards.</em>
 
 <details>
-<summary><em>Table — Simulator Features</em></summary>
+<summary><Strong>Simulator Features<Strong></summary>
 
 <ul>
   <li>Automatic propagation of flowrates across interconnected process units</li>
