@@ -15,6 +15,7 @@ End-to-end modeling and analysis of an industrial sugar extraction plant, with e
 <details>
 <summary><em>View project details</em></summary>
 
+  
 ### Phase I — Process Understanding & Process Flow Diagram (PFD)
 
 Development of a structured understanding of the sugar extraction process based on technical literature and the plant description provided.  
@@ -28,6 +29,7 @@ An industrial-style process flow diagram (PFD) was developed **individually** us
 </p>
 
 </details>
+
 
 ### Phase II — Plant-Wide Mass Balance & Operator-Oriented Simulator
 
@@ -46,6 +48,7 @@ Design and implementation of a **plant-wide, feed-defined mass balance** in the 
 </ul>
 
 </details>
+
 
 ### Phase III — Steady-State Modeling of an Evaporator Cascade
 
