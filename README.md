@@ -1,14 +1,3 @@
-# Justin Ralph Bala
-**Chemical Engineering — Polytechnique Montréal**
-
-Chemical engineering student in the biofabrication / biomanufacturing stream. This page presents selected academic projects that reflect my approach to engineering analysis, modeling, and process understanding, with an emphasis on using simulation tools to study real process behavior.
-
----
-
-## Projects
-
----
-
 ### Plant-Wide Modeling and Analysis of a Sugar Extraction Process
 
 End-to-end modeling and analysis of an industrial sugar extraction plant, with emphasis on mass and energy balances, steady-state operation, and dynamic behavior of evaporator systems.
@@ -17,17 +6,15 @@ End-to-end modeling and analysis of an industrial sugar extraction plant, with e
 **Focus:** Process modeling · Energy analysis · Dynamic systems
 
 <details>
-<summary><strong>View project details</strong></summary>
+<summary><em>Expand technical details</em></summary>
 
-<h4>Phase I — Process Understanding &amp; Process Flow Diagram (PFD)</h4>
+### Phase I — Process Understanding & Process Flow Diagram (PFD)
 
-<p>
-Development of a structured understanding of the sugar extraction process based on technical literature and the plant description provided.<br>
-An industrial-style process flow diagram (PFD) was developed <strong>individually</strong> using MS Visio to represent major unit operations and material flows.
-</p>
+Development of a structured understanding of the sugar extraction process based on technical literature and the plant description provided.  
+An industrial-style process flow diagram (PFD) was developed **individually** using MS Visio to represent major unit operations and material flows.
 
 <details>
-<summary><em>Sugar Plant Flowsheet (PFD)</em></summary>
+<summary><em>Figure — Sugar Plant Flowsheet (PFD)</em></summary>
 
 <p align="center">
   <img src="assets/sugar_PFD.png" width="900" alt="Sugar Plant Flowsheet">
@@ -35,17 +22,14 @@ An industrial-style process flow diagram (PFD) was developed <strong>individuall
 
 </details>
 
-<h4>Phase II — Plant-Wide Mass Balance &amp; Operator-Oriented Simulator</h4>
-<p>
-Design and implementation of a <strong>plant-wide, feed-defined mass balance</strong> in the form of an <strong>operator-oriented Excel simulator</strong> (VBA/macros). The tool allows users to vary operating conditions and observe their impact on the process while maintaining numerical consistency.
-</p>
+### Phase II — Plant-Wide Mass Balance & Operator-Oriented Simulator
 
-<p><em>
-I contributed primarily to the mass balance formulation and simulator logic, and later extended the tool with additional input handling and safeguards.
-</em></p>
+Design and implementation of a **plant-wide, feed-defined mass balance** in the form of an **operator-oriented Excel simulator** (VBA/macros). The tool allows users to vary operating conditions and observe their impact on the process while maintaining numerical consistency.
+
+<em>I contributed primarily to the mass balance formulation and simulator logic, and later extended the tool with additional input handling and safeguards.</em>
 
 <details>
-<summary><em>Simulator Features</em></summary>
+<summary><em>Table — Simulator Features</em></summary>
 
 <ul>
   <li>Automatic propagation of flowrates across interconnected process units</li>
@@ -56,39 +40,31 @@ I contributed primarily to the mass balance formulation and simulator logic, and
 
 </details>
 
-<h4>Phase III — Steady-State Modeling of an Evaporator Cascade</h4>
+### Phase III — Steady-State Modeling of an Evaporator Cascade
 
-<p>
-Steady-state simulation of a <strong>five-effect evaporator cascade</strong> operating in series using Aspen HYSYS.<br>
-The model incorporated energy integration and was used to perform sensitivity analyses on key operating parameters. This phase was completed <strong>individually</strong>.
-</p>
+Steady-state simulation of a **five-effect evaporator cascade** operating in series using Aspen HYSYS.  
+The model incorporated energy integration and was used to perform sensitivity analyses on key operating parameters. This phase was completed **individually**.
 
 <p align="center">
   <img src="assets/evap_cascade.png" width="700" alt="Five-effect evaporator cascade">
 </p>
 
-<h4>Phase IV — Dynamic Modeling of an Evaporator System</h4>
+### Phase IV — Dynamic Modeling of an Evaporator System
 
-<p>
-Dynamic modeling of a <strong>single evaporator unit</strong> to analyze transient behavior under operating disturbances.<br>
+Dynamic modeling of a **single evaporator unit** to analyze transient behavior under operating disturbances.  
 The system was represented by a coupled set of ordinary differential equations describing liquid concentration, pressure, temperature, and liquid level.
-</p>
 
-<p><strong>My contribution</strong></p>
-<ul>
-  <li>Development of a nonlinear dynamic evaporator model in Python</li>
-  <li>Implementation of steady-state and transient simulations</li>
-  <li>Linearization around steady state and derivation of transfer-function representations</li>
-  <li>Interpretation of process behavior under controlled disturbances</li>
-</ul>
+**My contribution**
+- Development of a nonlinear dynamic evaporator model in Python
+- Implementation of steady-state and transient simulations
+- Linearization around steady state and derivation of transfer-function representations
+- Interpretation of process behavior under controlled disturbances
 
-<p><strong>Representative results</strong></p>
-<ul>
-  <li>Time-dependent profiles of temperature, concentration, liquid level, and pressure</li>
-  <li>Transient responses to step changes in operating conditions</li>
-  <li>Comparison between steady-state predictions and dynamic behavior</li>
-  <li>Comparison of nonlinear, linearized, and transfer-function-based models</li>
-</ul>
+**Representative results**
+- Time-dependent profiles of temperature, concentration, liquid level, and pressure
+- Transient responses to step changes in operating conditions
+- Comparison between steady-state predictions and dynamic behavior
+- Comparison of nonlinear, linearized, and transfer-function-based models
 
 <table>
   <tr>
@@ -114,6 +90,3 @@ The system was represented by a coupled set of ordinary differential equations d
 </table>
 
 </details>
-
----
-
