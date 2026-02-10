@@ -14,6 +14,8 @@ End-to-end modeling and analysis of an industrial sugar extraction plant, with e
 
 <details>
 <summary><em>View project details</em></summary>
+</details>
+
   
 ### Phase I — Process Understanding & Process Flow Diagram (PFD)
 
