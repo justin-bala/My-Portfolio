@@ -4,7 +4,6 @@ Chemical engineering student in the biofabrication / biomanufacturing stream. Th
 --- 
 # Projects 
 --- 
-
 ## Plant-Wide Modeling and Analysis of a Sugar Extraction Process
 
 End-to-end modeling and analysis of an industrial sugar extraction plant, with emphasis on mass and energy balances, steady-state operation, and dynamic behavior of evaporator systems.
@@ -16,7 +15,6 @@ End-to-end modeling and analysis of an industrial sugar extraction plant, with e
 <summary><em>View project details</em></summary>
 </details>
 
-  
 ### Phase I — Process Understanding & Process Flow Diagram (PFD)
 
 Development of a structured understanding of the sugar extraction process based on technical literature and the plant description provided.  
@@ -28,9 +26,7 @@ An industrial-style process flow diagram (PFD) was developed **individually** us
 <p align="center">
   <img src="assets/sugar_PFD.png" width="900" alt="Sugar Plant Flowsheet">
 </p>
-
 </details>
-
 
 ### Phase II — Plant-Wide Mass Balance & Operator-Oriented Simulator
 
@@ -47,9 +43,7 @@ Design and implementation of a **plant-wide, feed-defined mass balance** in the 
   <li>Built-in checks to prevent non-physical operating conditions</li>
   <li>Designed for rapid “what-if” analysis rather than detailed optimization</li>
 </ul>
-
 </details>
-
 
 ### Phase III — Steady-State Modeling of an Evaporator Cascade
 
@@ -80,21 +74,21 @@ The system was represented by a coupled set of ordinary differential equations d
 <table>
   <tr>
     <td align="center">
-      <img src="assets/RP.png" width="600"><br>
+      <img src="assets/RP.png" width="750"><br>
       <em>State variables at steady state</em>
     </td>
     <td align="center">
-      <img src="assets/per_Tc.png" width="600"><br>
+      <img src="assets/per_Tc.png" width="750"><br>
       <em>Effect of a 5% increase in heating jacket temperature</em>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/per_deb_liq.png" width="600"><br>
+      <img src="assets/per_deb_liq.png" width="750"><br>
       <em>Effect of a 10% increase in liquid feed flowrate</em>
     </td>
     <td align="center">
-      <img src="assets/per_fv.png" width="600"><br>
+      <img src="assets/per_fv.png" width="750"><br>
       <em>Effect of a 5% decrease in vapor outlet flowrate</em>
     </td>
   </tr>
