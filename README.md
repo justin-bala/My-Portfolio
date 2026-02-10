@@ -78,21 +78,21 @@ The system was represented by a coupled set of ordinary differential equations d
 <table>
   <tr>
     <td align="center">
-      <img src="assets/RP.png" width="650"><br>
+      <img src="assets/RP.png" width="600"><br>
       <em>State variables at steady state</em>
     </td>
     <td align="center">
-      <img src="assets/per_Tc.png" width="650"><br>
+      <img src="assets/per_Tc.png" width="600"><br>
       <em>Effect of a 5% increase in heating jacket temperature</em>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/per_deb_liq.png" width="650"><br>
+      <img src="assets/per_deb_liq.png" width="600"><br>
       <em>Effect of a 10% increase in liquid feed flowrate</em>
     </td>
     <td align="center">
-      <img src="assets/per_fv.png" width="650"><br>
+      <img src="assets/per_fv.png" width="600"><br>
       <em>Effect of a 5% decrease in vapor outlet flowrate</em>
     </td>
   </tr>
